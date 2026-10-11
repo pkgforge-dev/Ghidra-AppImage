@@ -1,5 +1,0 @@
-#!/bin/sh
-if [ ! -x /bin/bash ]; then
-    notify -de "ERROR: This app requires /bin/bash which is not present in this system!"
-    exit 1
-fi
